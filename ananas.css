@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.photo {
+    width: 120px;
+    border-radius: 50%;
+}
+
+/* MENU */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section, aside {
+    background: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #ddd;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+/* BOUTONS */
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* QR CODE */
+.qrcode {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+#copyright {
+    font-weight: bold;
+    color: #ffcc00;
+}
+/* Images dans les sections */
+.img-section {
+    width: 60%;          /* 🔹 taille réduite */
+    max-width: 500px;    /* 🔹 limite maximale */
+    height: auto;        /* garde les proportions */
+    display: block;      /* permet le centrage */
+    margin: 15px auto;   /* centre horizontalement */
+    border-radius: 12px; /* joli arrondi */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
